@@ -62,8 +62,8 @@ in_pack ||= '1'
 
 product_details = {
     # - - - - - - - - - - -
-    RETAILER_ID: '101',
-    RETAILER_NAME: 'hemkop',
+    RETAILER_ID: '103',
+    RETAILER_NAME: 'wilys',
     GEOGRAPHY_NAME: 'SE',
     # - - - - - - - - - - -
     SCRAPE_INPUT_TYPE: page['vars']['input_type'],
