@@ -1,7 +1,6 @@
 data = JSON.parse(content)
 scrape_url_nbr_products = data['pagination']['totalNumberOfResults'].to_i
 current_page = data['pagination']['currentPage'].to_i
-page_size = data['pagination']['pageSize'].to_i
 number_of_pages = data['pagination']['numberOfPages'].to_i
 products = data['results']
 
